@@ -1,0 +1,40 @@
+@import "../../sass/mixins";
+
+.projectpage-wrapper {
+	width: 90vw;
+	margin: 0 auto;
+
+	.top-bar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 30px;
+
+		h2 {
+			@include title;
+		}
+		.new-project-button {
+			height: 100%;
+			padding: 10px 15px;
+			background-color: rgb(194, 190, 190);
+			text-decoration: none;
+			border-radius: 6px;
+			@include large-button;
+			img {
+				width: 20px;
+				margin-right: 10px;
+				transform: translateY(2px);
+			}
+			p {
+				display: inline;
+				color: black;
+				font-size: 20px;
+			}
+		}
+
+		.placeholder {
+			// increase this to make the new project button go left
+			width: 25%;
+		}
+	}
+}

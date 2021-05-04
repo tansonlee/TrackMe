@@ -1,0 +1,102 @@
+@import "./variables";
+
+@mixin title {
+	font-size: $large-font;
+	font-weight: $normal-weight;
+	color: $primary-font;
+}
+
+@mixin subtitle {
+	font-size: 30px;
+	font-weight: $normal-weight;
+	color: $secondary-font;
+}
+
+@mixin small-font {
+	font-size: $small-font;
+	font-weight: $light-weight;
+	color: $third-font;
+}
+
+@mixin link {
+	color: $flare-color;
+}
+
+@mixin heading {
+	font-size: 26px;
+	font-weight: $medium-weight;
+}
+
+@mixin subheading {
+	font-size: 24px;
+	font-weight: $normal-weight;
+}
+
+// buttons
+
+@mixin button {
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+@mixin large-button {
+	@include button;
+	color: black;
+	background-color: #dcf2f7;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	font-weight: $light-weight;
+	font-size: 20px;
+	border: 1px solid rgb(180, 179, 179);
+}
+
+@mixin nav-button {
+	@include button;
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	font-weight: $normal-weight;
+	font-size: 24px;
+	// border: 1px solid rgb(180, 179, 179);
+	transition: all 200ms ease;
+	&:hover {
+		// color: rgb(63, 111, 171);
+		background-color: rgba(0, 0, 0, 0.07);
+		transition: all 200ms ease;
+	}
+}
+
+@mixin small-button {
+	@include button;
+	text-align: center;
+	background-color: antiquewhite;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+	width: 5em;
+	border-radius: 4px;
+}
+
+@mixin unselected-button {
+	@include button;
+	background-color: $background-color;
+	padding: 10px 15px;
+	border-radius: 4px;
+	border: none;
+	font-size: 22px;
+	border: 1px solid rgb(165, 165, 165);
+}
+
+@mixin selected-button {
+	@include button;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 4px;
+	padding: 10px 15px;
+	font-size: 22px;
+	border: 1px solid rgb(118, 118, 118);
+}

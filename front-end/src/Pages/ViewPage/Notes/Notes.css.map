@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,cAAc,CAAC;EAEd,gBAAgB,EAAE,SAAS;EAC3B,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;CAWlB;;AAfD,AAMC,cANa,CAMb,EAAE,CAAC;EACF,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;ECepB,SAAS,EAAE,IAAI;EACf,WAAW,ECNI,GAAG;CFRjB;;AAVF,AAYC,cAZa,CAYb,CAAC,CAAC;ECCF,SAAS,ECAG,IAAI;EDChB,WAAW,ECEG,GAAG;EDDjB,KAAK,ECNO,OAAO;CFKlB",
+    "sources": [
+        "Notes.scss",
+        "../../../sass/_mixins.scss",
+        "../../../sass/_variables.scss"
+    ],
+    "names": [],
+    "file": "Notes.css"
+}

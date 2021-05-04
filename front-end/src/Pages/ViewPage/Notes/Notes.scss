@@ -1,0 +1,18 @@
+@import "../../../sass/mixins";
+
+.notes-wrapper {
+	// background-color: rgb(220, 220, 201);
+	background-color: #0000001a;
+	padding: 20px;
+	border-radius: 6px;
+
+	h3 {
+		text-align: center;
+		margin-bottom: 10px;
+		@include heading;
+	}
+
+	p {
+		@include small-font;
+	}
+}

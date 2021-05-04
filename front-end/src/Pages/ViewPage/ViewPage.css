@@ -1,0 +1,175 @@
+.viewpage-wrapper {
+  margin-top: 40px;
+}
+
+.viewpage-wrapper .viewpage-edit {
+  text-decoration: none;
+  color: black;
+  background-color: #dcf2f7;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 20px;
+  border: 1px solid #b4b3b3;
+}
+
+.viewpage-wrapper .viewpage-edit:hover {
+  cursor: pointer;
+}
+
+.viewpage-info-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.viewpage-column1 {
+  width: 60vw;
+}
+
+.viewpage-column1 .viewpage-topbar {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.viewpage-column1 .viewpage-topbar h1 {
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.viewpage-column1 .viewpage-topbar p {
+  padding: 10px 15px;
+  font-size: 22px;
+  border-radius: 4px;
+  font-weight: 300;
+}
+
+.viewpage-column1 .viewpage-topbar button {
+  padding: 5px 15px;
+  font-size: 18px;
+}
+
+.viewpage-column1 .viewpage-topbar a > img {
+  width: 2em;
+  height: 2em;
+}
+
+.viewpage-column1 > p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #2b3955;
+}
+
+.viewpage-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.viewpage-info div {
+  margin: 10px 20px;
+}
+
+.viewpage-info div h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.viewpage-info div p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #2b3955;
+}
+
+.viewpage-info div p span {
+  font-weight: 500;
+}
+
+.viewpage-data {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 2fr;
+      grid-template-columns: 5fr 2fr;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.viewpage-data .viewpage-lists {
+  width: 50vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+.button-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 22px;
+  border: 1px solid #767676;
+  width: 160px;
+}
+
+.button-selected:hover {
+  cursor: pointer;
+}
+
+.button-unselected {
+  background-color: #f7f5e6;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  font-size: 22px;
+  border: 1px solid #a5a5a5;
+  width: 160px;
+}
+
+.button-unselected:hover {
+  cursor: pointer;
+}
+
+.viewpage-complete {
+  background-color: #7eea6379;
+}
+
+.viewpage-incomplete {
+  background-color: #eaed4c88;
+}
+
+.viewpage-unstarted {
+  background-color: #df464677;
+}
+/*# sourceMappingURL=ViewPage.css.map */

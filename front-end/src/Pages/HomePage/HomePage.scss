@@ -1,0 +1,85 @@
+@import "../../sass/mixins";
+
+.homepage-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 50px 120px 0px 120px;
+}
+
+.homepage-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 10px;
+	row-gap: 20px;
+
+	img {
+		// width: 40vw;
+		// height: 300px;
+		width: 500px;
+		border: 1px solid gray;
+		border-radius: 4px;
+		// padding: 5px;
+		// width: auto;
+	}
+}
+
+.top-right-image {
+	margin-top: auto;
+	margin-left: auto;
+	// margin: auto;
+}
+
+.bottom-left-image {
+	margin-right: auto;
+	margin-bottom: auto;
+	// margin: auto;
+}
+
+.introduction {
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	// transform: translateY(-30px);
+	// text-align: center;
+	// align-items: center;
+	margin: auto;
+
+	h1 {
+		@include title;
+		font-size: 65px;
+	}
+	h3 {
+		@include subtitle;
+	}
+	p {
+		@include small-font;
+		margin-top: 10px;
+		font-size: 18px;
+	}
+}
+
+.try-it-out {
+	width: 35vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		@include title;
+	}
+
+	.try-buttons {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.try-me-button {
+		margin-top: 20px;
+		@include large-button;
+	}
+}

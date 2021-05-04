@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,eAAe,CAAC;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,GAAG,CAAC,KAAK,CAAC,SAAkB;EAExC,gBAAgB,EEXE,OAAO;CFwBzB;;AAtBD,AAWC,eAXc,CAWd,EAAE,CAAC;ECLH,SAAS,EAAE,IAAI;EACf,WAAW,ECSI,GAAG;EDRlB,KAAK,ECDW,OAAO;CFMtB;;AAbF,AAcC,eAdc,CAcd,CAAC,CAAC;ECFF,SAAS,ECAG,IAAI;EDChB,WAAW,ECEG,GAAG;EDDjB,KAAK,ECNO,OAAO;EFQlB,WAAW,EAAE,IAAI;CAKjB;;AArBF,AAkBE,eAlBa,CAcd,CAAC,CAIA,CAAC,CAAC;ECAH,KAAK,ECCQ,OAAiB;CFC5B",
+    "sources": [
+        "Footer.scss",
+        "../../sass/_mixins.scss",
+        "../../sass/_variables.scss",
+        "../../sass/_variables.scss"
+    ],
+    "names": [],
+    "file": "Footer.css"
+}

@@ -1,0 +1,23 @@
+.view-list-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+.view-list-wrapper h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.view-list-wrapper ul li {
+  font-size: 16px;
+  font-weight: 300;
+  color: #2b3955;
+}
+/*# sourceMappingURL=List.css.map */

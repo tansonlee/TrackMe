@@ -1,0 +1,19 @@
+.notes-wrapper {
+  background-color: #0000001a;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.notes-wrapper h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.notes-wrapper p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #2b3955;
+}
+/*# sourceMappingURL=Notes.css.map */

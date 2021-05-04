@@ -1,0 +1,62 @@
+.projectpage-wrapper {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.projectpage-wrapper .top-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.projectpage-wrapper .top-bar h2 {
+  font-size: 42px;
+  font-weight: 400;
+  color: #000;
+}
+
+.projectpage-wrapper .top-bar .new-project-button {
+  height: 100%;
+  padding: 10px 15px;
+  background-color: #c2bebe;
+  text-decoration: none;
+  border-radius: 6px;
+  color: black;
+  background-color: #dcf2f7;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 20px;
+  border: 1px solid #b4b3b3;
+}
+
+.projectpage-wrapper .top-bar .new-project-button:hover {
+  cursor: pointer;
+}
+
+.projectpage-wrapper .top-bar .new-project-button img {
+  width: 20px;
+  margin-right: 10px;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.projectpage-wrapper .top-bar .new-project-button p {
+  display: inline;
+  color: black;
+  font-size: 20px;
+}
+
+.projectpage-wrapper .top-bar .placeholder {
+  width: 25%;
+}
+/*# sourceMappingURL=ProjectPage.css.map */
